@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisplus.mapper.InfBaseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.mybatisplus.entity.InfBase">
+        <id column="id" property="id" />
+        <result column="fyxl" property="fyxl" />
+        <result column="kwfx" property="kwfx" />
+        <result column="zfdw" property="zfdw" />
+        <result column="cph" property="cph" />
+        <result column="sczd" property="sczd" />
+        <result column="xczd" property="xczd" />
+        <result column="fylx" property="fylx" />
+        <result column="fyr" property="fyr" />
+        <result column="fsrq" property="fsrq" />
+        <result column="fyrdh" property="fyrdh" />
+        <result column="jbrq" property="jbrq" />
+        <result column="xxly" property="xxly" />
+        <result column="jdyxm" property="jdyxm" />
+        <result column="jdybh" property="jdybh" />
+        <result column="fynr" property="fynr" />
+    </resultMap>
+
+</mapper>

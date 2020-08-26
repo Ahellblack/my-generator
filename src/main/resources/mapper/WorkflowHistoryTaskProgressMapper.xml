@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisplus.mapper.WorkflowHistoryTaskProgressMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.mybatisplus.entity.WorkflowHistoryTaskProgress">
+        <id column="id" property="id" />
+        <result column="construction_code" property="constructionCode" />
+        <result column="workflow_code" property="workflowCode" />
+        <result column="node_code" property="nodeCode" />
+        <result column="task_code" property="taskCode" />
+        <result column="task_name" property="taskName" />
+        <result column="task_desc" property="taskDesc" />
+        <result column="initial_time" property="initialTime" />
+        <result column="final_time" property="finalTime" />
+        <result column="finish_time" property="finishTime" />
+        <result column="finish_user_id" property="finishUserId" />
+        <result column="finish_user_name" property="finishUserName" />
+    </resultMap>
+
+</mapper>

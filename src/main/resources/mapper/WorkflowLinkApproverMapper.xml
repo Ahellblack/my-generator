@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisplus.mapper.WorkflowLinkApproverMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.mybatisplus.entity.WorkflowLinkApprover">
+        <id column="id" property="id" />
+        <result column="workflow_code" property="workflowCode" />
+        <result column="workflow_node_code" property="workflowNodeCode" />
+        <result column="workflow_link_name" property="workflowLinkName" />
+        <result column="workflow_link_pre_node" property="workflowLinkPreNode" />
+        <result column="workflow_link_next_node" property="workflowLinkNextNode" />
+        <result column="user_ids" property="userIds" />
+        <result column="role_ids" property="roleIds" />
+        <result column="depart_ids" property="departIds" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisplus.mapper.BusinessTenderApprovalMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.mybatisplus.entity.BusinessTenderApproval">
+        <id column="id" property="id" />
+        <result column="ini_depart" property="iniDepart" />
+        <result column="tender_code" property="tenderCode" />
+        <result column="purchase_item" property="purchaseItem" />
+        <result column="purchase_content" property="purchaseContent" />
+        <result column="bid_company" property="bidCompany" />
+        <result column="bid_money" property="bidMoney" />
+        <result column="init_depart_operator" property="initDepartOperator" />
+        <result column="init_depart_manager" property="initDepartManager" />
+        <result column="plan_depart_operator" property="planDepartOperator" />
+        <result column="plan_depart_manager" property="planDepartManager" />
+        <result column="init_depart_head" property="initDepartHead" />
+        <result column="plan_depart_head" property="planDepartHead" />
+        <result column="general_manager" property="generalManager" />
+        <result column="create_date" property="createDate" />
+        <result column="create_by" property="createBy" />
+        <result column="update_by" property="updateBy" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>

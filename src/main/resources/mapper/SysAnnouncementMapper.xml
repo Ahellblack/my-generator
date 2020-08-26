@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisplus.mapper.SysAnnouncementMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.mybatisplus.entity.SysAnnouncement">
+        <id column="id" property="id" />
+        <result column="titile" property="titile" />
+        <result column="msg_content" property="msgContent" />
+        <result column="start_time" property="startTime" />
+        <result column="end_time" property="endTime" />
+        <result column="sender" property="sender" />
+        <result column="priority" property="priority" />
+        <result column="msg_category" property="msgCategory" />
+        <result column="msg_type" property="msgType" />
+        <result column="send_status" property="sendStatus" />
+        <result column="send_time" property="sendTime" />
+        <result column="cancel_time" property="cancelTime" />
+        <result column="del_flag" property="delFlag" />
+        <result column="bus_type" property="busType" />
+        <result column="bus_id" property="busId" />
+        <result column="open_type" property="openType" />
+        <result column="open_page" property="openPage" />
+        <result column="create_by" property="createBy" />
+        <result column="create_time" property="createTime" />
+        <result column="update_by" property="updateBy" />
+        <result column="update_time" property="updateTime" />
+        <result column="user_ids" property="userIds" />
+    </resultMap>
+
+</mapper>

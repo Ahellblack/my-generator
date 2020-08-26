@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisplus.mapper.WorkflowTaskMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.mybatisplus.entity.WorkflowTask">
+        <id column="task_code" property="taskCode" />
+        <result column="task_name" property="taskName" />
+        <result column="description" property="description" />
+        <result column="workflow_code" property="workflowCode" />
+        <result column="node_code" property="nodeCode" />
+        <result column="need_files" property="needFiles" />
+        <result column="have_ramification" property="haveRamification" />
+        <result column="ramific_workflow_id" property="ramificWorkflowId" />
+        <result column="type" property="type" />
+    </resultMap>
+
+</mapper>

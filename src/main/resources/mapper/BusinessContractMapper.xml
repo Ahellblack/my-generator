@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatisplus.mapper.BusinessContractMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.mybatisplus.entity.BusinessContract">
+        <id column="id" property="id" />
+        <result column="c_name" property="cName" />
+        <result column="c_type" property="cType" />
+        <result column="c_code" property="cCode" />
+        <result column="a_identity" property="aIdentity" />
+        <result column="b_identity" property="bIdentity" />
+        <result column="c_identity" property="cIdentity" />
+        <result column="funds_direc" property="fundsDirec" />
+        <result column="pay_info" property="payInfo" />
+        <result column="tax_rate" property="taxRate" />
+        <result column="tax" property="tax" />
+        <result column="final_pay_info" property="finalPayInfo" />
+        <result column="c_state" property="cState" />
+        <result column="is_change" property="isChange" />
+        <result column="is_destory" property="isDestory" />
+        <result column="c_user_id" property="cUserId" />
+        <result column="c_user_name" property="cUserName" />
+        <result column="c_effict_time" property="cEffictTime" />
+        <result column="c_end_time" property="cEndTime" />
+        <result column="c_audit_time" property="cAuditTime" />
+        <result column="remark" property="remark" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>
